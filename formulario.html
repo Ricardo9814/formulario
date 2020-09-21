@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+</head>  
+<body>
+    <form action="formulario.html" >
+        <h3>Texto</h3>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Ingrese Su Nombre Completo" size="58" maxlength="10" autofocus>
+
+        <h3>Radio</h3>
+        <input type="radio" name="genero" value="hombre" id="hombre"> <label for="hombre"></label>Hombre
+        <input type="radio" name="genero" value="mujer">Mujer
+        <input type="radio" name="genero" value="otro">Otro
+
+        <h3>select</h3>
+         <label>Frutas:</label>
+            <select name="Frutas" >
+
+                <option value="Fresa">Fresa</option>
+                <option value="Naranja">Naranja</option>
+                <option value="Uva">Uva</option>
+             </select>
+
+             <h3>Textarea</h3>
+             <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
+             
+             <h3>datalist</h3>
+             <label >buscador</label>
+             <input list="buscador">
+             <datalist id="buscador">
+                <option value="internet explorer"></option>
+                <option value="chrome"></option>
+                <option value="opera"></option>
+             </datalist>
+             <h3>checkbox</h3>
+             <input type="checkbox" name="" value="azul">azul
+             <input type="checkbox" >verde
+
+    </form >
+</body>  
+</html>
